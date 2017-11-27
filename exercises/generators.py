@@ -10,7 +10,10 @@ def cubes():
     Talserien ska inte ha något slut.
 
     """
-    pass
+    i = 0
+    while True:
+        i += 1
+        yield i ** 3
 
 
 def primes():
